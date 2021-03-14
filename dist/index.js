@@ -26,6 +26,7 @@ async function run() {
         owner: repo_owner,
         repo: repo_name,
         per_page: 100,
+        status: 'skipped',
         page: page_number
       });
       
